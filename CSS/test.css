@@ -314,7 +314,7 @@ body{
     font-size: 2.1rem;
     font-weight:550;
     margin-top: 5.2rem;
-    margin-bottom: 1.8rem;
+    /* margin-bottom: 0.1rem; */
     /* text-decoration:underline; */
 
 }
@@ -400,7 +400,13 @@ body{
 }
 
 .grid--3--colms{
-    grid-template-columns:repeat(3, 1fr);
+    grid-template-columns:repeat(2, 1fr);
+}
+
+.meal{
+    box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,.062) ;
+    border-radius:1.2rem;
+    overflow: hidden;
 }
 
 .meal-name{
@@ -411,7 +417,24 @@ body{
 
 .meal-image{
     width: 100%;
-    /* border-radius: 50%; */
+    border-radius: .9rem;
+}
+/* tag */
+.meal-tag-name{
+    margin: 1.4rem 0 1.2rem;
+}
+.tag-name{
+    background-color: #51cf66;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.4rem 0.6rem;
+    font-size: 1.4rem;
+    border-radius: 10rem;
+}
+/* shenanigans */
+.meal-shenanigans{
+    padding: 2.2rem;
 }
 
 .meal-description{
@@ -427,6 +450,9 @@ body{
     color: #e67e22;
 }
 .meal-descriptions{
+    display: flex;
+    align-items: center;
+    /* gap: 1.4rem; */
     /* list-style: none; */
     font-size:1.6rem;
     line-height: 1.6;
