@@ -457,3 +457,22 @@ body{
     font-size:1.6rem;
     line-height: 1.6;
 }
+/* testimonials */
+.testimonials-section{
+    background-color:#fdf2e9;
+    display:grid;
+    grid-template-columns:55fr 45fr;
+    padding: 5.6rem 
+    align-items: center;
+}
+.testimonials-part{
+    display:grid;
+    grid-template-columns:repeat(2 1fr);
+}
+
+/* testimonial image optimization */
+.testimony img{
+    width:5.6rem;
+    border-radius: 50%;
+    margin-top: 1.2rem;
+}
